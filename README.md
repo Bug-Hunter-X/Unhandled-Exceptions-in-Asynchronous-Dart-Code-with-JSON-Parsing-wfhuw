@@ -1,0 +1,3 @@
+# Unhandled Exceptions in Asynchronous Dart Code with JSON Parsing
+
+This repository demonstrates a common error in Dart code that involves asynchronous operations and JSON parsing.  The `bug.dart` file contains code that is prone to runtime exceptions because it doesn't handle cases where the JSON data might be null, empty, or missing expected fields. The `bugSolution.dart` file shows how to fix these issues using proper error handling and null checks.
